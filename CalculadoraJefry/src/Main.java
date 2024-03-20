@@ -8,7 +8,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         float resultado = 0;
         float n1 = 0, n2 = 0;
-        int cont = 0;
         boolean exit = true;
         do {
             System.out.print("Ingrese el primer numero: ");
@@ -46,7 +45,6 @@ public class Main {
         }while(exit);
         System.out.println("Fin del programa...");
     }
-
     public static float sumar(float n1, float n2){
         return n1+n2;
     }
